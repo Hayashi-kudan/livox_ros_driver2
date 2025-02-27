@@ -139,6 +139,7 @@ class Lddc final {
   double publish_frq_;
   uint32_t publish_period_ns_;
   std::string frame_id_;
+  const float gravity = 9.81; // m/s^2
 
 #ifdef BUILDING_ROS1
   bool enable_lidar_bag_;
